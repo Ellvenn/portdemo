@@ -32,7 +32,7 @@ export default function Nav({ menuOpen, setMenuOpen }: NavProps) {
           onClick={() => scrollTo('hero')}
           className="font-barlow-condensed font-bold text-white text-xl tracking-widest uppercase hover:text-accent transition-colors duration-200"
         >
-          KAELORIAN
+          MXVSANDERS
         </button>
 
         <button

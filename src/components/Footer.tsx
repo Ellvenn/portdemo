@@ -129,7 +129,7 @@ export default function Footer() {
       <div className="px-8 md:px-16 py-6 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="flex items-center gap-6">
           <span className="font-barlow-condensed font-bold text-white text-xl tracking-widest uppercase">
-            KAELORIAN
+            ZIDAN ILMAN
           </span>
           <span className="text-white/30 text-xs tracking-widest" style={{ fontFamily: 'Space Mono, monospace' }}>
             © 2026 ALL RIGHTS RESERVED
