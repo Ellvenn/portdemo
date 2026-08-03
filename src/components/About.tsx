@@ -1,8 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { ArrowRight } from 'lucide-react';
 
-const CENTER_IMAGE =
-  'https://github.com/Ellvenn/portdemo/blob/126c8eefa76a1a2afab8809173b548377ba14536/public/images/myPAS.jpg';
+const CENTER_IMAGE = '/images/myPAS.jpg';
 
 const stats = [
   { value: '8+', label: 'YEARS\nEXPERIENCE' },
@@ -174,7 +173,7 @@ export default function About() {
           <img
             src={CENTER_IMAGE}
             alt="Kaelorian Frost"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover object-center"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-dark/60 via-transparent to-transparent" />
           <div className="absolute bottom-5 left-5 right-5 flex items-end justify-between">
