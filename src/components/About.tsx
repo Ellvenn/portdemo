@@ -1,8 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { ArrowRight } from 'lucide-react';
 
-const CENTER_IMAGE =
-  'https://images.pexels.com/photos/30504721/pexels-photo-30504721.jpeg?auto=compress&cs=tinysrgb&w=900&h=1200&fit=crop';
+const CENTER_IMAGE = '/images/myPas.jpg';
 
 const stats = [
   { value: '8+', label: 'YEARS\nEXPERIENCE' },
