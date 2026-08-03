@@ -49,7 +49,7 @@ export default function Hero() {
             className="display-text text-white leading-none whitespace-nowrap overflow-hidden"
             style={{ fontSize: 'clamp(60px, 17vw, 220px)' }}
           >
-            KAELORIAN
+            ZIDAN ILMAN
           </h1>
           <h2
             className="display-text leading-none whitespace-nowrap"
@@ -69,7 +69,7 @@ export default function Hero() {
           className={`flex items-center justify-between px-8 md:px-16 mt-8 md:mt-4 transition-all duration-1000 ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}
           style={{ transitionDelay: '0.4s' }}
         >
-          {['UI/UX DESIGN', 'PRODUCT STRATEGY', 'DESIGN SYSTEMS'].map((skill) => (
+          {['MAKAN', 'TIDUR', 'MAIN'].map((skill) => (
             <span
               key={skill}
               className="text-white/60 text-xs md:text-sm tracking-[0.2em] uppercase"
@@ -94,7 +94,7 @@ export default function Hero() {
                   className="font-black uppercase leading-tight text-sm md:text-base"
                   style={{ fontFamily: 'Barlow Condensed, sans-serif', letterSpacing: '0.02em' }}
                 >
-                  DESIGNING STRUCTURED INTERFACES BUILT FOR SCALE AND REAL-WORLD IMPACT.
+                  HR | LnD | Project Management Enthusiast
                 </p>
               </div>
 
@@ -113,7 +113,7 @@ export default function Hero() {
                   className="text-white/40 text-xs tracking-widest uppercase"
                   style={{ fontFamily: 'Space Mono, monospace' }}
                 >
-                  VIEW WORK
+                  VIEW PROJECT
                 </div>
               </div>
             </div>
